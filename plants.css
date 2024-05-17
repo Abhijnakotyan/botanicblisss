@@ -1,0 +1,48 @@
+.body{
+    position:absolute;
+    background-color:linen;
+}
+
+.product-item {
+    width: 200px; 
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    background-color:lightgray;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+}
+.product-image {
+    width: 150px;
+    height: 150px; /* Set a fixed height to make sure all images are the same size */
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    object-fit: cover; /* Ensure the image covers the entire area while maintaining aspect ratio */
+    display: block; /* Ensure the image is treated as a block element */
+    margin-left: auto; /* Center the image horizontally */
+    margin-right: auto; 
+}
+   
+.heading {
+    margin:inherit;
+    width:100%;
+    margin-bottom:50px;
+    margin-top: 50px;
+    font-size: 32px; 
+    color: #4CAF50; 
+    text-align:center; 
+    font-family: 'Arial', sans-serif; 
+    text-transform: uppercase; 
+    letter-spacing: 6px;
+ }
+
